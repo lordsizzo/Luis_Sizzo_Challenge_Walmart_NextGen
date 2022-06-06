@@ -6,7 +6,8 @@ import dagger.hilt.components.SingletonComponent
 import kotlinx.coroutines.*
 import luis.sizzo.luis_sizzo_challenge_walmart_nextgen.common.BASE_URL
 import luis.sizzo.luis_sizzo_challenge_walmart_nextgen.model.remote.RemoteAPIConnection
-import luis.sizzo.luis_sizzo_challenge_walmart_nextgen.model.*
+import luis.sizzo.luis_sizzo_challenge_walmart_nextgen.model.res.Repository
+import luis.sizzo.luis_sizzo_challenge_walmart_nextgen.model.res.RepositoryImpl
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 

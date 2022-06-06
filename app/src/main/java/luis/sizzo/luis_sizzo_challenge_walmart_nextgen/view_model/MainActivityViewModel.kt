@@ -4,6 +4,7 @@ import androidx.lifecycle.*
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.*
 import luis.sizzo.luis_sizzo_challenge_walmart_nextgen.model.*
+import luis.sizzo.luis_sizzo_challenge_walmart_nextgen.model.res.Repository
 import javax.inject.Inject
 
 @HiltViewModel

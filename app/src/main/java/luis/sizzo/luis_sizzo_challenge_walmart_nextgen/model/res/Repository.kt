@@ -1,6 +1,7 @@
-package luis.sizzo.luis_sizzo_challenge_walmart_nextgen.model
+package luis.sizzo.luis_sizzo_challenge_walmart_nextgen.model.res
 
 import kotlinx.coroutines.flow.*
+import luis.sizzo.luis_sizzo_challenge_walmart_nextgen.model.UI_State
 import luis.sizzo.luis_sizzo_challenge_walmart_nextgen.model.remote.RemoteAPIConnection
 import javax.inject.Inject
 

@@ -22,7 +22,6 @@ class MainActivity : AppCompatActivity() {
     private var howShowIt = true
     private lateinit var binding: ActivityMainBinding
     private val viewModel: MainActivityViewModel by lazy {
-        //When your viewModel is whitout a constructor
         ViewModelProvider(this).get(MainActivityViewModel::class.java)
     }
 
